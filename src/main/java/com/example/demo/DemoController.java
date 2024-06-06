@@ -11,6 +11,6 @@ public class DemoController {
     @GetMapping
     String getDemo(){
         System.out.println("Inside getDemo()");
-        return "Hello world";
+        return "Don't you have other work to do !";
     }
 }
